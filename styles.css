@@ -1,0 +1,140 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000; 
+    font-style: roboto;
+        font-family: "Roboto", serif;
+        font-optical-sizing: auto;
+        
+}
+
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 500px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(6, 221, 27, 0.2);
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 20px rgba(66, 221, 27, 0.2);
+}
+/*ICONO USUARIO*/
+.fa-user {
+    color: blue;
+    height: 80%;
+    align-self: center;
+    font-size: 2.5em;
+    margin: 3px 3px 0px 3px;
+}
+
+.texto1 {
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    margin: 3px 3px 0px 3px;
+    align-self: flex-start;
+    height: 80%;
+    width: 85%;
+}
+
+/*PUNTOS VERTICALES*/
+.fa-ellipsis-vertical {
+   
+    margin: 9px 20px 5px 0px;
+    font-size: 2em;
+    
+}
+
+
+/* ESTO ES PARA ANIMAR LAS IMÁGENES*/
+
+.carousel-images {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-images img{
+    width: 0%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .9;
+    transition: .5s ease;
+}
+
+.carousel-images img:hover{
+    cursor: crosshair;
+    width: 80%;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/*ESTO PARA LOS BOTONES*/
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 8%;
+    box-shadow: 0 0 20px rgba(207, 46, 199, 0.2);
+}
+
+.fa-heart {
+    height: 85%;
+    width: 5%;
+    align-self: center;
+    font-size: 2em;
+    margin: 5px 5px 0px 10px;
+    color: red;
+}
+
+.fa-comment {
+    height: 85%;
+    width: 5%;
+    align-self: center;
+    font-size: 2em;
+    margin: 5px 5px 0px 10px;
+}
+
+.fa-paper-plane {
+    height: 85%;
+    width: 5%;
+    align-self: center;
+    font-size: 2em;
+    margin: 5px 5px 0px 10px;
+}
+
+.fa-bookmark {
+    margin: 5px 15px 8px 310px;
+    font-size: 2em;
+}
+
+
+/*ESTO PARA EL COMENTARIO A PIE DE IMAGEN*/ 
+
+.footer{
+   padding: 10px;
+   text-align: justify;
+   font-size: 1em;
+}
+
+
+
